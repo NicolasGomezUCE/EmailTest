@@ -25,3 +25,12 @@ El cuerpo del correo incluye los nombres de los integrantes del equipo, cumplien
   - python-dotenv
 
 ## Estructura del Proyecto
+
+EmailTest/
+│
+├── main.py
+├── email_sender.py
+├── message_builder.py
+├── .env
+├── README.md
+
