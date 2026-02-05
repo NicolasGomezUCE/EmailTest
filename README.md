@@ -26,7 +26,7 @@ El cuerpo del correo incluye los nombres de los integrantes del equipo, cumplien
 
 ## Estructura del Proyecto
 
-EmailTest/
+EmailTest
 │
 ├── main.py
 ├── email_sender.py
@@ -34,3 +34,30 @@ EmailTest/
 ├── .env
 ├── README.md
  
+
+## Configuración
+Antes de ejecutar el programa, se debe crear un archivo `.env` con la siguiente información:
+
+EMAIL_SENDER=correo@gmail.com
+EMAIL_PASSWORD=contraseña_de_aplicación
+
+
+> Para Gmail se recomienda usar una contraseña de aplicación.
+
+## Ejecución del Programa
+Desde la terminal, ejecutar:
+
+
+El programa solicitará:
+- Correo del destinatario
+- Asunto
+- Cuerpo del mensaje (finaliza escribiendo `END`)
+
+## Observaciones
+En caso de presentarse inconvenientes técnicos durante el desarrollo del proyecto, estos deben ser documentados en un archivo con el formato:
+
+
+y copiados en la carpeta indicada por el docente.
+
+## Repositorio
+El enlace del repositorio GitHub debe ser enviado dentro del correo electrónico, tal como lo solicita el enunciado del proyecto.
